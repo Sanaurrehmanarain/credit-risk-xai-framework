@@ -1,0 +1,78 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║  ALGORITHM 1 — Credit Default Prediction with Fairness Audit         ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  INPUT   D : OpenIntro Loans dataset                                 ║
+║          A : protected attribute (income-bracket proxy)              ║
+║  OUTPUT  f*: fitted classifier      τ*: decision threshold           ║
+║          Φ : SHAP attributions      R : fairness report              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+┌─ PHASE 1 ─ Ingestion & Leakage Control ──────────────────────────────┐
+  1.1   D  ← load(OpenIntro_Loans_Data)
+  1.2   y  ← 1 if loan_status ∈ {Charged Off, Default} else 0
+  1.3   L  ← {paid_principal, paid_interest, paid_total,
+              paid_late_fees, loan_status}          ▹ post-origination
+  1.4   X  ← D ∖ (L ∪ {y})
+  1.5   ASSERT ∀ x ∈ X : observable_at(x) ≤ t₀      ▹ origination time
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PHASE 2 ─ Partitioning  (before any parameter is fitted) ───────────┐
+  2.1   X_tr, X_te, y_tr, y_te ← stratified_split(X, y, .30, seed=42)
+  2.2   X_tr, X_va, y_tr, y_va ← stratified_split(X_tr, y_tr, .20, seed=42)
+        ▹ X_va carries threshold selection; X_te is opened exactly once
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PHASE 3 ─ Preprocessing Pipeline  (fitted on X_tr only) ────────────┐
+  3.1   T_num ← MedianImputer ∘ StandardScaler        ▹ scaler for LogReg
+  3.2   T_cat ← ModeImputer   ∘ OneHotEncoder(handle_unknown='ignore')
+  3.3   T     ← ColumnTransformer(T_num, T_cat)
+  3.4   T.fit(X_tr)                                   ▹ never on X_va/X_te
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PHASE 4 ─ Imbalance Mitigation  (inside CV folds only) ─────────────┐
+  4.1   S ← SMOTENC(categorical_features = idx_cat, seed = 42)
+  4.2   P ← ImbPipeline([ T , S , classifier ])
+        ▹ pipeline form guarantees resampling never leaks across folds
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PHASE 5 ─ Model Training & Selection ───────────────────────────────┐
+  5.1   M ← {LightGBM, XGBoost, RandomForest, LogisticRegression}
+  5.2   FOR EACH m ∈ M:
+  5.3       θ_m ← RandomisedSearchCV(P(m), StratifiedKFold(k=5),
+                                     scoring = 'average_precision')
+  5.4   f*  ← argmax_m  CV_score(θ_m)
+  5.5   BASELINE: refit f* with class_weight='balanced' instead of SMOTE
+        ▹ reports whether resampling actually earned its place
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PHASE 6 ─ Threshold Optimisation  (validation set) ─────────────────┐
+  6.1   p_va ← f*.predict_proba(X_va)[:, 1]
+  6.2   τ*   ← argmax_τ  [ F1(y_va, p_va ≥ τ) ]
+              or  argmin_τ [ C_FN·FN(τ) + C_FP·FP(τ) ]   ▹ cost-sensitive
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PHASE 7 ─ Final Evaluation  (held-out test set, single pass) ───────┐
+  7.1   p_te ← f*.predict_proba(X_te)[:, 1]
+  7.2   ŷ_te ← p_te ≥ τ*
+  7.3   REPORT  PR-AUC, ROC-AUC, Precision, Recall, F1,
+                Brier score, calibration curve, confusion matrix
+        ▹ SMOTE distorts the prior — calibration must be checked
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PHASE 8 ─ Explainability ───────────────────────────────────────────┐
+  8.1   E ← SHAP.TreeExplainer(f*)
+  8.2   Φ ← E.shap_values(X_te)
+  8.3   RANK features by mean(|Φ|)     ▹ expect interest_rate, DTI, grade
+  8.4   PLOT beeswarm + dependence(interest_rate, DTI)
+        ▹ base value reflects the resampled prior, not population rate
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PHASE 9 ─ Fairness Audit ───────────────────────────────────────────┐
+  9.1   A ← income_bracket(X_te)       ▹ groups: low vs. high
+  9.2   FOR EACH group a ∈ A:
+  9.3       COMPUTE  FPR_a , FNR_a , TPR_a , selection_rate_a
+  9.4   ΔEO  ← max_a TPR_a − min_a TPR_a            ▹ equal opportunity
+  9.5   DI   ← min_a sel_a / max_a sel_a            ▹ 80% rule threshold
+  9.6   R    ← {ΔEO, DI, per-group confusion matrices}
+  9.7   IF DI < 0.80: FLAG disparate impact; document mitigation
+└──────────────────────────────────────────────────────────────────────┘
