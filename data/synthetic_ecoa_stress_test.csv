@@ -1,0 +1,11 @@
+application_id,annual_income,debt_to_income,interest_rate,age_bracket,minority_status_probability,simulated_zip_redlining_proxy,simulated_protected_group,credit_decision,approval_probability,interest_rate_offered
+SYN-0001,92000,0.22,7.1,35-44,0.18,0.12,reference,approved,0.91,7.1
+SYN-0002,68000,0.31,8.25,25-34,0.74,0.68,comparison,approved,0.62,8.25
+SYN-0003,54000,0.46,10.9,45-54,0.81,0.77,comparison,denied,0.34,10.9
+SYN-0004,125000,0.19,6.85,55-64,0.11,0.09,reference,approved,0.96,6.85
+SYN-0005,47000,0.39,9.75,25-34,0.66,0.59,comparison,denied,0.44,9.75
+SYN-0006,76000,0.28,7.85,35-44,0.57,0.41,comparison,approved,0.71,7.85
+SYN-0007,61000,0.35,8.95,65+,0.22,0.33,reference,denied,0.48,8.95
+SYN-0008,103000,0.24,7.35,45-54,0.79,0.72,comparison,approved,0.66,7.35
+SYN-0009,39000,0.52,12.4,25-34,0.88,0.91,comparison,denied,0.21,12.4
+SYN-0010,85000,0.27,7.6,35-44,0.14,0.18,reference,approved,0.88,7.6

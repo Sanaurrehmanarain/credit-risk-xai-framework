@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="606.96pt" height="853.2pt" viewBox="0 0 606.96 853.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-16T18:45:07.339281</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 853.2 
+L 606.96 853.2 
+L 606.96 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 26.6004 77.3028 
+L 580.3596 77.3028 
+Q 586.314 77.3028 586.314 68.886 
+L 586.314 22.5936 
+Q 586.314 14.1768 580.3596 14.1768 
+L 26.6004 14.1768 
+Q 20.646 14.1768 20.646 22.5936 
+L 20.646 68.886 
+Q 20.646 77.3028 26.6004 77.3028 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #102a43; stroke: #102a43; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 37.91376 176.62104 
+L 193.91904 176.62104 
+Q 201.06432 176.62104 201.06432 166.52088 
+L 201.06432 97.50312 
+Q 201.06432 87.40296 193.91904 87.40296 
+L 37.91376 87.40296 
+Q 30.76848 87.40296 30.76848 97.50312 
+L 30.76848 166.52088 
+Q 30.76848 176.62104 37.91376 176.62104 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #ffffff; stroke: #0f766e; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 225.47736 176.62104 
+L 381.48264 176.62104 
+Q 388.62792 176.62104 388.62792 166.52088 
+L 388.62792 97.50312 
+Q 388.62792 87.40296 381.48264 87.40296 
+L 225.47736 87.40296 
+Q 218.33208 87.40296 218.33208 97.50312 
+L 218.33208 166.52088 
+Q 218.33208 176.62104 225.47736 176.62104 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #ffffff; stroke: #1f6feb; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 413.04096 176.62104 
+L 569.04624 176.62104 
+Q 576.19152 176.62104 576.19152 166.52088 
+L 576.19152 97.50312 
+Q 576.19152 87.40296 569.04624 87.40296 
+L 413.04096 87.40296 
+Q 405.89568 87.40296 405.89568 97.50312 
+L 405.89568 166.52088 
+Q 405.89568 176.62104 413.04096 176.62104 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #ffffff; stroke: #d97706; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 42.67728 263.31408 
+L 102.81672 263.31408 
+Q 107.58024 263.31408 107.58024 256.58064 
+L 107.58024 216.18 
+Q 107.58024 209.44656 102.81672 209.44656 
+L 42.67728 209.44656 
+Q 37.91376 209.44656 37.91376 216.18 
+L 37.91376 256.58064 
+Q 37.91376 263.31408 42.67728 263.31408 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #f4f7fb; stroke: #1f6feb; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 129.01608 263.31408 
+L 189.15552 263.31408 
+Q 193.91904 263.31408 193.91904 256.58064 
+L 193.91904 216.18 
+Q 193.91904 209.44656 189.15552 209.44656 
+L 129.01608 209.44656 
+Q 124.25256 209.44656 124.25256 216.18 
+L 124.25256 256.58064 
+Q 124.25256 263.31408 129.01608 263.31408 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #f4f7fb; stroke: #1f6feb; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 215.35488 263.31408 
+L 275.49432 263.31408 
+Q 280.25784 263.31408 280.25784 256.58064 
+L 280.25784 216.18 
+Q 280.25784 209.44656 275.49432 209.44656 
+L 215.35488 209.44656 
+Q 210.59136 209.44656 210.59136 216.18 
+L 210.59136 256.58064 
+Q 210.59136 263.31408 215.35488 263.31408 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #f4f7fb; stroke: #1f6feb; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 301.69368 263.31408 
+L 361.83312 263.31408 
+Q 366.59664 263.31408 366.59664 256.58064 
+L 366.59664 216.18 
+Q 366.59664 209.44656 361.83312 209.44656 
+L 301.69368 209.44656 
+Q 296.93016 209.44656 296.93016 216.18 
+L 296.93016 256.58064 
+Q 296.93016 263.31408 301.69368 263.31408 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #f4f7fb; stroke: #1f6feb; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 388.03248 263.31408 
+L 448.17192 263.31408 
+Q 452.93544 263.31408 452.93544 256.58064 
+L 452.93544 216.18 
+Q 452.93544 209.44656 448.17192 209.44656 
+L 388.03248 209.44656 
+Q 383.26896 209.44656 383.26896 216.18 
+L 383.26896 256.58064 
+Q 383.26896 263.31408 388.03248 263.31408 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #f4f7fb; stroke: #1f6feb; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 474.37128 263.31408 
+L 534.51072 263.31408 
+Q 539.27424 263.31408 539.27424 256.58064 
+L 539.27424 216.18 
+Q 539.27424 209.44656 534.51072 209.44656 
+L 474.37128 209.44656 
+Q 469.60776 209.44656 469.60776 216.18 
+L 469.60776 256.58064 
+Q 469.60776 263.31408 474.37128 263.31408 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #f4f7fb; stroke: #1f6feb; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 110.791633 236.38032 
+Q 115.02282 236.38032 117.576957 236.38032 
+" clip-path="url(#p168a5265f9)" style="fill: none; stroke: #1f6feb; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 112.776957 233.98032 
+L 117.576957 236.38032 
+L 112.776957 238.78032 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #1f6feb; stroke: #1f6feb; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 197.130433 236.38032 
+Q 201.36162 236.38032 203.915757 236.38032 
+" clip-path="url(#p168a5265f9)" style="fill: none; stroke: #1f6feb; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 199.115757 233.98032 
+L 203.915757 236.38032 
+L 199.115757 238.78032 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #1f6feb; stroke: #1f6feb; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 283.469233 236.38032 
+Q 287.70042 236.38032 290.254557 236.38032 
+" clip-path="url(#p168a5265f9)" style="fill: none; stroke: #1f6feb; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 285.454557 233.98032 
+L 290.254557 236.38032 
+L 285.454557 238.78032 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #1f6feb; stroke: #1f6feb; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 369.808033 236.38032 
+Q 374.03922 236.38032 376.593357 236.38032 
+" clip-path="url(#p168a5265f9)" style="fill: none; stroke: #1f6feb; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 371.793357 233.98032 
+L 376.593357 236.38032 
+L 371.793357 238.78032 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #1f6feb; stroke: #1f6feb; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 456.146833 236.38032 
+Q 460.37802 236.38032 462.932157 236.38032 
+" clip-path="url(#p168a5265f9)" style="fill: none; stroke: #1f6feb; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 458.132157 233.98032 
+L 462.932157 236.38032 
+L 458.132157 238.78032 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #1f6feb; stroke: #1f6feb; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 37.91376 412.29144 
+L 289.18944 412.29144 
+Q 296.33472 412.29144 296.33472 402.19128 
+L 296.33472 312.13152 
+Q 296.33472 302.03136 289.18944 302.03136 
+L 37.91376 302.03136 
+Q 30.76848 302.03136 30.76848 312.13152 
+L 30.76848 402.19128 
+Q 30.76848 412.29144 37.91376 412.29144 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #ffffff; stroke: #1f6feb; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 317.77056 412.29144 
+L 569.04624 412.29144 
+Q 576.19152 412.29144 576.19152 402.19128 
+L 576.19152 312.13152 
+Q 576.19152 302.03136 569.04624 302.03136 
+L 317.77056 302.03136 
+Q 310.62528 302.03136 310.62528 312.13152 
+L 310.62528 402.19128 
+Q 310.62528 412.29144 317.77056 412.29144 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #ffffff; stroke: #d97706; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 35.532 496.45944 
+L 571.428 496.45944 
+Q 576.19152 496.45944 576.19152 489.726 
+L 576.19152 426.6 
+Q 576.19152 419.86656 571.428 419.86656 
+L 35.532 419.86656 
+Q 30.76848 419.86656 30.76848 426.6 
+L 30.76848 489.726 
+Q 30.76848 496.45944 35.532 496.45944 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #f4f7fb; stroke: #d9e2ec; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 37.91376 614.29464 
+L 289.18944 614.29464 
+Q 296.33472 614.29464 296.33472 604.19448 
+L 296.33472 522.55152 
+Q 296.33472 512.45136 289.18944 512.45136 
+L 37.91376 512.45136 
+Q 30.76848 512.45136 30.76848 522.55152 
+L 30.76848 604.19448 
+Q 30.76848 614.29464 37.91376 614.29464 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #ffffff; stroke: #0f766e; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 317.77056 614.29464 
+L 569.04624 614.29464 
+Q 576.19152 614.29464 576.19152 604.19448 
+L 576.19152 522.55152 
+Q 576.19152 512.45136 569.04624 512.45136 
+L 317.77056 512.45136 
+Q 310.62528 512.45136 310.62528 522.55152 
+L 310.62528 604.19448 
+Q 310.62528 614.29464 317.77056 614.29464 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #ffffff; stroke: #0f766e; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 37.91376 765.79704 
+L 378.50544 765.79704 
+Q 385.65072 765.79704 385.65072 755.69688 
+L 385.65072 657.22032 
+Q 385.65072 647.12016 378.50544 647.12016 
+L 37.91376 647.12016 
+Q 30.76848 647.12016 30.76848 657.22032 
+L 30.76848 755.69688 
+Q 30.76848 765.79704 37.91376 765.79704 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #ffffff; stroke: #102a43; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 404.10936 765.79704 
+L 569.04624 765.79704 
+Q 576.19152 765.79704 576.19152 755.69688 
+L 576.19152 657.22032 
+Q 576.19152 647.12016 569.04624 647.12016 
+L 404.10936 647.12016 
+Q 396.96408 647.12016 396.96408 657.22032 
+L 396.96408 755.69688 
+Q 396.96408 765.79704 404.10936 765.79704 
+z
+" clip-path="url(#p168a5265f9)" style="fill: #ffffff; stroke: #b42318; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="38.5092" y="49.819504" transform="rotate(-0 38.5092 49.819504)">MACHINE LEARNING FOR CREDIT RISK MODELING</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #d9e2ec" x="38.5092" y="64.402832" transform="rotate(-0 38.5092 64.402832)">A comparative study of traditional and explainable AI approaches</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #b3d4fc" x="571.428" y="63.642988" transform="rotate(-0 571.428 63.642988)">THESIS AT A GLANCE</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0f766e" x="43.86816" y="123.618518" transform="rotate(-0 43.86816 123.618518)">QUESTION</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(43.86816 150.336028)">Can explainable ML improve minority-</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(43.86816 159.019329)">class default detection without</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(43.86816 167.70263)">sacrificing transparency?</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1f6feb" x="231.43176" y="123.618518" transform="rotate(-0 231.43176 123.618518)">DATA</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(231.43176 150.336028)">OpenIntro Loans Full Schema: 10,000</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(231.43176 159.019329)">loans, 55 variables, 1.7% default rate.</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #d97706" x="418.99536" y="123.618518" transform="rotate(-0 418.99536 123.618518)">DESIGN</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(418.99536 150.336028)">70/30 hold-out split; random seed 42;</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(418.99536 159.019329)">SMOTE applied only to training data.</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="35.532" y="195.138" transform="rotate(-0 35.532 195.138)">METHODS PIPELINE</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1f6feb" x="48.63168" y="233.118754" transform="rotate(-0 48.63168 233.118754)">1</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(61.651233 241.699226)">Select</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(46.571155 249.005804)">pre-origination</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(56.505686 256.312383)">variables</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1f6feb" x="134.97048" y="233.118754" transform="rotate(-0 134.97048 233.118754)">2</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(151.027377 241.699226)">Split</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(140.516986 249.005804)">train / test</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1f6feb" x="221.30928" y="233.118754" transform="rotate(-0 221.30928 233.118754)">3</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(232.78063 241.699226)">SMOTE</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(223.052271 249.005804)">training only</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1f6feb" x="307.64808" y="233.118754" transform="rotate(-0 307.64808 233.118754)">4</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(319.730836 241.699226)">Train 4</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(318.743727 249.005804)">models</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1f6feb" x="393.98688" y="233.118754" transform="rotate(-0 393.98688 233.118754)">5</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(409.606277 241.699226)">Tune</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(401.323308 249.005804)">threshold</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1f6feb" x="480.32568" y="233.118754" transform="rotate(-0 480.32568 233.118754)">6</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(487.285311 241.699226)">Explain +</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(495.213905 249.005804)">audit</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="35.532" y="287.7228" transform="rotate(-0 35.532 287.7228)">EXPERIMENTS AND RESULTS</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1f6feb" x="43.86816" y="338.246917" transform="rotate(-0 43.86816 338.246917)">MODEL COMPARISON</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(43.86816 364.964428)">Four candidates: Logistic Regression, Random Forest, XGBoost,</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(43.86816 373.647729)">and LightGBM. Random Forest had the highest global ROC AUC,</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(43.86816 382.33103)">but it collapsed to the majority class at threshold 0.50.</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(43.86816 391.01433)">LightGBM retained useful minority-class sensitivity.</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #d97706" x="323.72496" y="338.246917" transform="rotate(-0 323.72496 338.246917)">SELECTED OPERATING POINT</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(323.72496 364.964428)">LightGBM was selected for practical default detection. At the</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(323.72496 373.647729)">exploratory threshold ~3.4%, Precision = 7.1% and Recall =</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(323.72496 382.33103)">32.1%. These figures are optimistic because the hold-out test</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(323.72496 391.01433)">set was used for threshold calibration.</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1f6feb" x="106.9848" y="460.749737" transform="rotate(-0 106.9848 460.749737)">0.670</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52606d" x="106.9848" y="483.413355" transform="rotate(-0 106.9848 483.413355)">best ROC AUC</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f766e" x="232.0272" y="460.749737" transform="rotate(-0 232.0272 460.749737)">0.659</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52606d" x="232.0272" y="483.413355" transform="rotate(-0 232.0272 483.413355)">selected ROC AUC</text>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #d97706" x="357.0696" y="460.749737" transform="rotate(-0 357.0696 460.749737)">7.1%</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52606d" x="357.0696" y="483.413355" transform="rotate(-0 357.0696 483.413355)">precision @ ~3.4%</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #b42318" x="482.112" y="460.749737" transform="rotate(-0 482.112 460.749737)">32.1%</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52606d" x="482.112" y="483.413355" transform="rotate(-0 482.112 483.413355)">recall @ ~3.4%</text>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0f766e" x="43.86816" y="548.666917" transform="rotate(-0 43.86816 548.666917)">EXPLAINABILITY</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(43.86816 575.384428)">SHAP identified the main risk drivers as interest rate, debt-</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(43.86816 584.067729)">to-income ratio, and loan grade. This connects model</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(43.86816 592.75103)">predictions to borrower-level and global explanations.</text>
+   </g>
+   <g id="text_38">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0f766e" x="323.72496" y="548.666917" transform="rotate(-0 323.72496 548.666917)">FAIRNESS CHECK</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(323.72496 575.384428)">Using income as a proxy and False Positive Rate parity: low-</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(323.72496 584.067729)">income FPR = 0.07%; high-income FPR = 0.13%. No evidence of</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(323.72496 592.75103)">disparate impact was found under the evaluated metric.</text>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="35.532" y="632.8116" transform="rotate(-0 35.532 632.8116)">CONCLUSIONS AND LIMITATIONS</text>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="43.86816" y="683.335717" transform="rotate(-0 43.86816 683.335717)">TAKEAWAY</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(43.86816 710.43315)">A constrained LightGBM framework can provide useful minority-class discrimination</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(43.86816 719.695337)">while remaining interpretable through SHAP. Deployment requires leakage controls,</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(43.86816 728.957525)">validation-based threshold selection, monitoring, and governance.</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b42318" x="410.06376" y="683.335717" transform="rotate(-0 410.06376 683.335717)">LIMITATIONS</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(410.06376 710.053228)">Single dataset; severe imbalance; income</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(410.06376 718.736529)">used only as a proxy; test-set threshold</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(410.06376 727.41983)">calibration introduces optimistic bias;</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(410.06376 736.10313)">results are not a definitive deployment</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #172b4d" transform="translate(410.06376 744.786431)">estimate.</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52606d" x="35.532" y="801.1476" transform="rotate(-0 35.532 801.1476)">Reproducibility: Python 3.13.5 | scikit-learn 1.8 | LightGBM 4.7 | imbalanced-learn 0.11 | seed = 42</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52606d" x="571.428" y="801.1476" transform="rotate(-0 571.428 801.1476)">Sana Ur Rehman Arain | 2026</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p168a5265f9">
+   <rect x="5.76" y="5.76" width="595.44" height="841.68"/>
+  </clipPath>
+ </defs>
+</svg>
