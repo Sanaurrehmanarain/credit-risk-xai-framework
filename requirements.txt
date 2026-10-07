@@ -1,0 +1,12 @@
+pandas
+numpy
+scipy==1.11.0
+scikit-learn==1.8.0
+lightgbm==4.7.0
+xgboost
+imbalanced-learn==0.11.0
+shap
+seaborn
+matplotlib
+streamlit
+jupyterlab

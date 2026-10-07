@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this project in your research, publication, or educational work, please cite it using the metadata below."
+type: software
+
+title: "Machine Learning for Credit Risk Modeling: A Comparative Study of Traditional & Explainable AI Approaches"
+version: "1.0"
+date-released: 2026-07-16
+
+authors:
+  - family-names: "Arain"
+    given-names: "Sana Ur Rehman"
+    email: "sana.arain.work@gmail.com"
+    alias: "sanaurrehmanarain"
+
+repository-code: "https://github.com/sanaurrehmanarain/credit-risk-xai-framework"
+url: "https://github.com/sanaurrehmanarain/credit-risk-xai-framework"
+license: MIT
+
+abstract: >
+  A comparative study of traditional machine learning and explainable AI
+  (XAI) approaches for credit risk modeling. The project evaluates model
+  performance alongside interpretability, demonstrating end-to-end data
+  science and machine learning skills for educational and portfolio purposes.
+
+keywords:
+  - credit risk
+  - machine learning
+  - explainable AI
+  - XAI
+  - data science
+  - python
+
+references:
+  - type: dataset
+    title: "loans_full_schema: Loan data from Lending Club"
+    authors:
+      - name: "OpenIntro"
+    url: "https://www.openintro.org/data/index.php?data=loans_full_schema"
+    notes: "Loan data originally from Lending Club, distributed by OpenIntro (R package: openintro). Used as the dataset for credit risk modeling in this project."
+
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "Arain"
+      given-names: "Sana Ur Rehman"
+  title: "Machine Learning for Credit Risk Modeling: A Comparative Study of Traditional & Explainable AI Approaches"
+  version: "1.0"
+  year: 2026
+  url: "https://github.com/sanaurrehmanarain/credit-risk-xai-framework"
