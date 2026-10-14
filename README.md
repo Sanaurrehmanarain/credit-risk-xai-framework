@@ -6,7 +6,14 @@
 </div>
 
 <h1 align="center">Machine Learning for Credit Risk Modeling</h1>
-<h3 align="center">A Comparative Study of Traditional & Explainable AI Approaches</h3>
+<h3 align="center">A Comparative Study of Traditional & Explainable AI Approaches - Part I</h3>
+
+<p align="center">
+  <a href="https://doi.org/10.5281/zenodo.23372099"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23372099.svg" alt="Thesis DOI"></a>
+  <a href="https://doi.org/10.5281/zenodo.23372882"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23372882.svg" alt="Software DOI"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/Thesis-CC%20BY%204.0-lightgrey.svg" alt="Thesis: CC BY 4.0"></a>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.13.5-blue?logo=python" alt="Python">
@@ -16,7 +23,22 @@
   <img src="https://img.shields.io/badge/Explainability-SHAP-purple" alt="SHAP">
   <img src="https://img.shields.io/badge/Compliance-Basel%20III%20%7C%20SR%2011--7%20%7C%20ECOA-lightgrey" alt="Compliance">
   <img src="https://img.shields.io/badge/Status-Completed-success" alt="Status">
-  <img src="https://img.shields.io/badge/License-Proprietary-black" alt="License">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Notebooks-Jupyter-F37626?logo=jupyter&logoColor=white" alt="Jupyter">
+  <img src="https://img.shields.io/badge/Container-Docker-2496ED?logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Reproducible-Research-brightgreen" alt="Reproducible Research">
+  <img src="https://img.shields.io/badge/Cite-CITATION.cff-blue" alt="Citable">
+</p>
+
+<p align="center">
+  <a href="#abstract">Abstract</a> ·
+  <a href="#-key-results">Results</a> ·
+  <a href="#-how-to-run">How to Run</a> ·
+  <a href="#-archived-research-and-software">Archived Records (DOI)</a> ·
+  <a href="#-citation">Cite</a>
 </p>
 
 ---
@@ -57,8 +79,12 @@
   - [Method B: Local Python Environment](#method-b-local-python-environment)
 - [📚 Dataset](#-dataset)
 - [⚖️ Copyright Notice \& License](#️-copyright-notice--license)
+  - [Licensing](#licensing)
+  - [License details](#license-details)
+- [📦 Archived Research and Software](#-archived-research-and-software)
 - [📖 Citation](#-citation)
-  - [📝 Suggested Citation](#-suggested-citation)
+  - [📝 Citing the Research](#-citing-the-research)
+  - [📝 Citing the Software](#-citing-the-software)
   - [📚 BibTeX](#-bibtex)
   - [👤 Author](#-author)
 
@@ -71,6 +97,8 @@ This repository contains the complete implementation framework for my Master's t
 > *Can modern ensemble machine learning outperform traditional statistical credit scoring **without** sacrificing the explainability and fairness that regulators require?*
 
 The project spans the full model-risk lifecycle expected under **SR 11-7**: data validation and leakage testing, imbalanced-data handling, model benchmarking, post-hoc explainability with SHAP, decision-threshold calibration, and a disparate-impact fairness audit — culminating in a fully documented, reproducible thesis.
+
+> 📦 **Permanently archived.** The thesis and the software release are both preserved on Zenodo with citable DOIs — see [Archived Research and Software](#-archived-research-and-software).
 
 ---
 
@@ -410,11 +438,22 @@ This project uses the **OpenIntro Loans Full Schema** dataset (derived from Lend
 
 © 2026 Sana Ur Rehman Arain.
 
-This project is licensed under the **MIT License**. You are free to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of this project, in whole or in part, provided that the copyright notice and license text are included in all copies or substantial portions of the project.
+### Licensing
 
-**Proper citation and attribution are required.** If you use, adapt, or build upon this work, you must give appropriate credit to the original author, **Sana Ur Rehman Arain**, and include a link back to the original repository where possible.
+The repository's software is licensed under the MIT License.
+See [LICENSE](LICENSE) for its terms.
 
-This project is provided **"as is"**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement.
+The thesis is licensed under Creative Commons Attribution 4.0
+International (CC BY 4.0), except where otherwise indicated.
+Third-party data and materials retain their respective licenses.
+
+### License details
+
+The software in this repository is licensed under the **MIT License**. You are free to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software, in whole or in part, provided that the copyright notice and license text are included in all copies or substantial portions of the software.
+
+**Proper citation and attribution are requested.** If you use, adapt, or build upon this work, please give appropriate credit to the original author, **Sana Ur Rehman Arain**, and include a link back to the original repository where possible.
+
+The software is provided **"as is"**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement.
 
 For questions or permission requests, contact: **sana.arain.work@gmail.com**
 
@@ -424,25 +463,64 @@ Dataset provided by **OpenIntro**.
 
 ---
 
+## 📦 Archived Research and Software
+
+Both the thesis and the software release are permanently archived on [Zenodo](https://zenodo.org/) and have their own DOIs.
+
+| Record | DOI | Badge |
+| --- | --- | --- |
+| **Thesis, Part I, Version 1.0** | [10.5281/zenodo.23372099](https://doi.org/10.5281/zenodo.23372099) | [![Thesis DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23372099.svg)](https://doi.org/10.5281/zenodo.23372099) |
+| **Archived software release** | [10.5281/zenodo.23372882](https://doi.org/10.5281/zenodo.23372882) | [![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23372882.svg)](https://doi.org/10.5281/zenodo.23372882) |
+
+- **Thesis, Part I, Version 1.0:** https://doi.org/10.5281/zenodo.23372099
+- **Archived software release:** https://doi.org/10.5281/zenodo.23372882
+
+The Zenodo software record preserves the released snapshot.
+
+---
+
 ## 📖 Citation
 
 If you use this project in academic research, publications, educational materials, or derivative works, please cite it and give appropriate credit to the original author.
 
 > 💡 A [`CITATION.cff`](CITATION.cff) file is included, so GitHub shows a **"Cite this repository"** button in the sidebar with ready-made BibTeX, APA, and other formats.
 
-### 📝 Suggested Citation
+### 📝 Citing the Research
 
-> Arain, S. U. R. (2026). *Machine Learning for Credit Risk Modeling: A Comparative Study of Traditional & Explainable AI Approaches* (Version 1.0) [Software]. https://github.com/sanaurrehmanarain/credit-risk-xai-framework
+**Research (thesis).** When referring to the research, please cite:
+
+> Arain, S. U. R. (2026). *Machine Learning for Credit Risk Modeling: A Comparative Study of Traditional & Explainable AI Approaches - Part I* (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.23372099
+
+### 📝 Citing the Software
+
+**Implementation (software).** When using the implementation, please also cite the archived software release:
+
+> Arain, S. U. R. (2026). *Machine Learning for Credit Risk Modeling: A Comparative Study of Traditional & Explainable AI Approaches - Part I* (Version 1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23372882
+
+The development repository is at https://github.com/sanaurrehmanarain/credit-risk-xai-framework.
 
 ### 📚 BibTeX
 
 ```bibtex
 @software{arain2026creditrisk,
-  author  = {Arain, Sana Ur Rehman},
-  title   = {Machine Learning for Credit Risk Modeling: A Comparative Study of Traditional & Explainable AI Approaches},
-  year    = {2026},
-  version = {1.0},
-  url     = {https://github.com/sanaurrehmanarain/credit-risk-xai-framework}
+  author    = {Arain, Sana Ur Rehman},
+  title     = {Machine Learning for Credit Risk Modeling: A Comparative Study of Traditional \& Explainable AI Approaches - Part I},
+  year      = {2026},
+  version   = {1.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23372882},
+  url       = {https://doi.org/10.5281/zenodo.23372882}
+}
+
+@mastersthesis{arain2026creditriskthesis,
+  author    = {Arain, Sana Ur Rehman},
+  title     = {Machine Learning for Credit Risk Modeling: A Comparative Study of Traditional \& Explainable AI Approaches - Part I},
+  year      = {2026},
+  type      = {Master's thesis},
+  note      = {Version 1.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23372099},
+  url       = {https://doi.org/10.5281/zenodo.23372099}
 }
 ```
 
