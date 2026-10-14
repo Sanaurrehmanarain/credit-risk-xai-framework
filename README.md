@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="research-project-report.docx.pdf">
+  <a href="Arain_2026_Credit_Risk_XAI_Part_I_Thesis_v1.0.pdf">
     <img src="banner.png" alt="Machine Learning for Credit Risk Modeling — Project Banner" width="100%">
   </a>
   <p><em>Click the banner above to open the full thesis (PDF)</em></p>
@@ -138,7 +138,7 @@ Project/
 ├── CITATION.cff
 ├── Dockerfile
 ├── infographic_ascii.txt
-├── LISENCE
+├── LICENSE
 ├── Presentation.pptx
 ├── Prensentation.pdf
 ├── requirements.txt
@@ -391,7 +391,7 @@ This reproduces the complete pipeline end to end: data cleaning → leakage-safe
 **3. Launch the interactive dashboard**
 
 ```bash
-streamlit run notebooks/app.py
+streamlit run notebooks-&-codes/app.py
 ```
 
 Reproduces the threshold-analysis and SHAP-explanation views shown in the [Interactive Dashboard](#interactive-dashboard-apppy) gallery above.
